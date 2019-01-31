@@ -1,6 +1,6 @@
 // config/config.default.js
 // 切记：要改为自己的 key 值
-exports.keys = "key";
+exports.keys = "123456";
 exports.view = {
   defaultViewEngine: 'nunjucks',
   mapping: {
@@ -21,7 +21,8 @@ exports.security = {
   },
 };
 exports.mongoose = {
-  url: 'mongodb://127.0.0.1/testdb',
-  options: {}
+  url: 'mongodb://root:123456@127.0.0.1/testdb?authSource=admin',
+  options: {
+  }
 };
 
