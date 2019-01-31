@@ -50,3 +50,9 @@ Temporary Items
 
 node_modules
 run
+
+
+# Created by IDE
+.idea/
+*.iml
+.DS_Store
